@@ -68,7 +68,7 @@ MailChimpManager mc = new MailChimpManager("YourApiKeyHere-us2");
 //	Create the email parameter
 EmailParameter email = new EmailParameter()
 {
-	Email = "customeremail@righthere.com"
+	email = "customeremail@righthere.com"
 };
 
 EmailParameter results = mc.Subscribe("YourListID", email);
